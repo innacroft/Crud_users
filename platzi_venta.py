@@ -3,7 +3,7 @@ import os
 import csv
 
 clients =[]
-CLIENT_TABLE='C:\\Users\\Inna\\Desktop\\platzi\\python\\samples\\CRUD\\.clients.csv'
+CLIENT_TABLE='D:\\platzi\\python\\CRUD\\.clients.csv'
 CLIENT_SCHEMA= ['name','company','email', 'position']
 
 def _initialize_clients_from_storage():
